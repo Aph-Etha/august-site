@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/august-site">  {/* Update with your actual repo name */}
+    <Router>
       <div className="App">
         {/* Header remains static across all pages */}
         <header className="navbar">

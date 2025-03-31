@@ -7,7 +7,12 @@
     max-width: 1000px;
     margin: 50px auto;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    transition: transform .5s ease-in-out;
   }
+
+.about-container:hover {
+  transform: scale(1.025);
+}
   
   .about-header {
     font-size: 3rem;

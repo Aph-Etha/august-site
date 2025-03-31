@@ -2,6 +2,7 @@
   "name": "august-oppeau",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aph-etha.github.io/august-site",
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.17",
     "@testing-library/dom": "^10.4.0",
@@ -23,7 +24,6 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "https://aph-etha.github.com/augustoppeau",
   "eslintConfig": {
     "extends": [
       "react-app",

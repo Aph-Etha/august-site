@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Navigation */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #2b2d42;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .logo {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ffcc00;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar .nav-links a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #ffcc00;
+  transform: translateY(-5px);
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(45deg, #2b2d42, #101010);
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sections */
+section {
+  padding: 80px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Projects Section */
+.projects-section {
+  background: #1e1e2e;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.1);
+}
+
+.project-title {
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+/* Contact and About Pages */
+.contact-button, .about-button {
+  padding: 15px 30px;
+  background: #ffcc00;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact-button:hover, .about-button:hover {
+  background: #ff9900;
+  transform: translateY(-3px);
+}
+
+.about-text, .contact-text {
+  font-size: 1.5rem;
+  opacity: 0.85;
+  margin-top: 20px;
+  line-height: 1.8;
+  transition: opacity 0.3s ease;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/augustoppeau/static/css/main.61a0a992.css",
+    "main.js": "/augustoppeau/static/js/main.36be41bc.js",
+    "static/js/453.988ffe40.chunk.js": "/augustoppeau/static/js/453.988ffe40.chunk.js",
+    "static/media/pokemon-cypher-2024.gif": "/augustoppeau/static/media/pokemon-cypher-2024.ee8c947007a03f1c5664.gif",
+    "static/media/aiga.gif": "/augustoppeau/static/media/aiga.a558ede7ad72726a016f.gif",
+    "static/media/twist-turn.gif": "/augustoppeau/static/media/twist-turn.7d701178c7d7951b63cd.gif",
+    "index.html": "/augustoppeau/index.html",
+    "main.61a0a992.css.map": "/augustoppeau/static/css/main.61a0a992.css.map",
+    "main.36be41bc.js.map": "/augustoppeau/static/js/main.36be41bc.js.map",
+    "453.988ffe40.chunk.js.map": "/augustoppeau/static/js/453.988ffe40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61a0a992.css",
+    "static/js/main.36be41bc.js"
+  ]
+}

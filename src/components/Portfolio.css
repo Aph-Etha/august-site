@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1e1e2e, #24243e);
+    color: white;
+    text-align: center;
+  }
+  
+  .portfolio-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+  
+  .portfolio-header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .portfolio-header nav a {
+    margin: 0 15px;
+    color: #f8f8f8;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .portfolio-header nav a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .hero-text {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    margin-top: 40px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .project-title {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    color: #ff9900;
+  }
+  
+  /* Project Page */
+  .project-page-container {
+    padding: 50px;
+  }
+  
+  .project-page-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
